@@ -1,4 +1,4 @@
-namespace WeatherTrayApp;
+namespace WeatherTray;
 
 /// <summary>
 /// Contains all weather data for a location - current, hourly, and daily forecasts.

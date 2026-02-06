@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace WeatherTrayApp;
+namespace WeatherTray;
 
 public class Settings
 {
@@ -9,7 +9,7 @@ public class Settings
     public string LocationName { get; set; } = "New York, NY";
     public bool HasBeenConfigured { get; set; } = false;
 
-    private static string SettingsPath => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "WeatherTrayApp", "settings.json");
+    private static string SettingsPath => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "WeatherTray", "settings.json");
 
     public static Settings Load()
     {
@@ -44,7 +44,7 @@ public class Settings
     /// </summary>
     public static string StartupShortcutPath => Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.Startup),
-        "WeatherTrayApp.lnk");
+        "WeatherTray.lnk");
 
     /// <summary>
     /// Checks if startup is enabled.

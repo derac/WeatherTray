@@ -2,7 +2,7 @@ using System;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace WeatherTrayApp;
+namespace WeatherTray;
 
 public class LocationDialog : Form
 {

@@ -1,7 +1,7 @@
 using System.Net.Http;
 using System.Text.Json;
 
-namespace WeatherTrayApp;
+namespace WeatherTray;
 
 /// <summary>
 /// Service for fetching weather data from Open-Meteo API.
@@ -15,7 +15,7 @@ public class WeatherService : IDisposable
     public WeatherService()
     {
         _httpClient = new HttpClient();
-        _httpClient.DefaultRequestHeaders.Add("User-Agent", "WeatherTrayApp/1.0");
+        _httpClient.DefaultRequestHeaders.Add("User-Agent", "WeatherTray/1.0");
     }
 
     /// <summary>

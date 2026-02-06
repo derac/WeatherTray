@@ -2,7 +2,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Net.Http;
 
-namespace WeatherTrayApp;
+namespace WeatherTray;
 
 /// <summary>
 /// Weather dashboard window showing extended forecast information.
