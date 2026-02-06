@@ -1,0 +1,21 @@
+# Build Results
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+debug.log
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OS generated files
+.DS_Store
